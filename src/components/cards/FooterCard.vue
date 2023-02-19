@@ -1,0 +1,18 @@
+<template>
+    <div class="card row flex-center pa-lg footer-card">
+        <div class="col-12 text-center text-md">{{ footerText }}</div>
+        <div class="col-12 text-center py-lg">{{ aboutUs }}</div>
+    </div>
+</template>
+
+<script setup>
+const footerText = "فروشگاه اینترنتی دیجی کالا، بررسی، انتخاب و خرید آنلاین"
+const aboutUs = "درباره ما"
+</script>
+
+
+<style scoped>
+.footer-card {
+    height: 25vh;
+}
+</style>

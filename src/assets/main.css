@@ -1,0 +1,174 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+* {
+  font-family: 'Lalezar', cursive;
+}
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+  background-color: #eee;
+  height: 100vh;
+  padding: 1rem 3.5rem;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #ef394e;
+  transition: 0.4s;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: .5rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 5px #e4e4e4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: flex-end
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.col-3 {
+  width: 33.3%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.pa-sm {
+  padding: .5rem;
+}
+
+.pa-md {
+  padding: 1rem;
+}
+
+.pa-lg {
+  padding: 1.5rem;
+}
+
+.px-sm {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.px-md {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-lg {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-sm {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.py-md {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-lg {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.text-md {
+  font-size: 1.2rem;
+}
+
+.text-sm {
+  font-size: .7rem;
+}
+
+.w-100 {
+  width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .col-3 {
+    width: 50%;
+  }
+  .col-6 {
+    width: 100%
+  }
+}
+
+@media (max-width: 425px) {
+  .col-3 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%
+  }
+}
