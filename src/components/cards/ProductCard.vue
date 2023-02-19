@@ -1,9 +1,11 @@
 <template>
-    <div class="ma-sm card row flex-center pa-md product-card cursor-pointer">
+    <div class="pa-sm">
+        <div class="card row flex-center pa-md product-card cursor-pointer">
         <div class="col-12 text-center product-img">
             <img :src="product.image" />
         </div>
         <div class="col-12 text-center text-md">{{ product.name }}</div>
+    </div>
     </div>
 </template>
 

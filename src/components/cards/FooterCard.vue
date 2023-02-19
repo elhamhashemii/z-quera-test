@@ -1,7 +1,7 @@
 <template>
     <div class="card row flex-center pa-lg footer-card">
         <div class="col-12 text-center text-lg text-bold">{{ footerText }}</div>
-        <router-link to="/about" class="col-12 text-black text-center py-lg">{{ aboutUs }}</router-link>
+        <router-link to="/about" class="text-black text-center py-lg">{{ aboutUs }}</router-link>
     </div>
 </template>
 

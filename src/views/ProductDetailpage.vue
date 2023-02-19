@@ -1,6 +1,6 @@
 <template>
   <div class="text-center text-lg my-lg">{{ product.name }}</div>
-  <div class="pdp px-md row items-canter justify-between">
+  <div class="pdp px-md row items-center justify-between">
     <div class="col-4 product-img my-lg text-center">
       <img :src="product.image" :alt="product.name">
     </div>
@@ -36,7 +36,13 @@ ProductData.map((item) => {
   margin: 6rem 0;
 }
 .product-img img {
-  max-width: 100%;
-  /* width: 16rem; */
+  max-width: 80%;
 }
+
+@media (max-width: 425px) {
+  .product-img img {
+    max-width: 100%;
+  }
+}
+
 </style>
