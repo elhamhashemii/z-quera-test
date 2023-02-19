@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <div class="row justify-between items-start">
+    <div class="row justify-start items-start">
         <ProductCard v-for="product in ProductData" :key="product.id" class="col-4" :product="product" @click="routeToSingle(product.id)" />
     </div>
   </main>

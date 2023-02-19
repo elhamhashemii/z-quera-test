@@ -105,6 +105,10 @@ h1{
   width: 50%;
 }
 
+.col-8 {
+  width: 75%;
+}
+
 .col-12 {
   width: 100%;
 }
@@ -221,9 +225,25 @@ h1{
   cursor: pointer;
 }
 
+
+@media (max-width: 1440px) {
+  .col-4 {
+    width: 30%;
+  }
+  .col-8 {
+    width: 68%;
+  }
+  .col-6 {
+    width: 100%
+  }
+}
+
 @media (max-width: 768px) {
   .col-4 {
-    width: 49%;
+    width: 45%;
+  }
+  .col-8 {
+    width: 54%;
   }
   .col-6 {
     width: 100%
@@ -232,6 +252,9 @@ h1{
 
 @media (max-width: 425px) {
   .col-4 {
+    width: 100%;
+  }
+  .col-8 {
     width: 100%;
   }
   .col-6 {
