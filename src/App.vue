@@ -1,3 +1,9 @@
+<template>
+   <MainLayout>
+     <RouterView />
+   </MainLayout>
+ </template>
+
 <script setup>
 import { RouterView } from 'vue-router'
 import MainLayout from "./components/layout/MainLayout.vue"
@@ -17,14 +23,7 @@ function applyCursorRippleEffect(e) {
    ripple.onanimationend = () => document.body.removeChild(ripple);
 
 }
-
 </script>
-
-<template>
-  <MainLayout>
-    <RouterView />
-  </MainLayout>
-</template>
 
 <style>
 .ripple {
