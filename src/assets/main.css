@@ -20,15 +20,19 @@
 
 @media (max-width: 768px) {
   #app {
-    padding: 1rem;
+    padding: .8rem;
   }
 }
 
 a,
-.green {
+.primary {
   text-decoration: none;
   color: #ef394e;
   transition: 0.4s;
+}
+
+.text-black {
+  color: #111 !important;
 }
 
 h1{
@@ -205,12 +209,12 @@ h1{
   font-size: 1.5rem;
 }
 
-.text-md {
-  font-size: 1.2rem;
+.text-sm {
+  font-size: 1rem;
 }
 
-.text-sm {
-  font-size: .7rem;
+.text-md {
+  font-size: 1.2rem;
 }
 
 .w-100 {

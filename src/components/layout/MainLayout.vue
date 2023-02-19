@@ -10,7 +10,6 @@
 
 
 <script setup>
-import { RouterLink } from 'vue-router'
 import FooterCard from "../cards/FooterCard.vue"
 const logoName = "دیجی کالا"
 </script>
