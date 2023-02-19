@@ -1,6 +1,6 @@
 <template>
     <div class="card row flex-center pa-lg footer-card">
-        <div class="col-12 text-center text-md">{{ footerText }}</div>
+        <div class="col-12 text-center text-lg text-bold">{{ footerText }}</div>
         <div class="col-12 text-center py-lg">{{ aboutUs }}</div>
     </div>
 </template>

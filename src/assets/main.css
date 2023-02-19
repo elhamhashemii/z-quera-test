@@ -1,16 +1,27 @@
 @import './base.css';
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+@font-face {
+  font-family: "Vazir";
+  src: url('./vazir.woff2');
+}
 
 * {
-  font-family: 'Lalezar', cursive;
+  font-family: 'Vazir', cursive;
 }
 
 #app {
   margin: 0 auto;
   font-weight: normal;
   background-color: #eee;
-  height: 100vh;
-  padding: 1rem 3.5rem;
+  height: 100%;
+  padding: 3rem 8rem;
+  direction: rtl;
+}
+
+@media (max-width: 768px) {
+  #app {
+    padding: 1rem;
+  }
 }
 
 a,
@@ -22,6 +33,7 @@ a,
 
 h1{
   font-size: 2.5rem;
+  font-weight: bolder;
 }
 
 .card {
@@ -31,7 +43,7 @@ h1{
 }
 
 .card:hover {
-  box-shadow: 2px 2px 5px #e4e4e4;
+  box-shadow: 3px 5px 8px #d3d3d3;
 }
 
 .text-center {
@@ -85,8 +97,8 @@ h1{
   justify-content: flex-end;
 }
 
-.col-3 {
-  width: 33.3%;
+.col-4 {
+  width: 24%;
 }
 
 .col-6 {
@@ -139,6 +151,52 @@ h1{
   padding-bottom: 1.5rem;
 }
 
+.ma-xs {
+  margin: .2rem;
+}
+
+.ma-sm {
+  margin: .5rem;
+}
+
+.ma-md {
+  margin: 1rem;
+}
+
+.ma-lg {
+  margin: 1.5rem;
+}
+
+.mx-sm {
+  margin-left: .5rem;
+  padding-right: .5rem;
+}
+
+.mx-md {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-lg {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.my-sm {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.my-md {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-lg {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .text-lg {
   font-size: 1.5rem;
 }
@@ -155,9 +213,17 @@ h1{
   width: 100vw;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
-  .col-3 {
-    width: 50%;
+  .col-4 {
+    width: 49%;
   }
   .col-6 {
     width: 100%
@@ -165,7 +231,7 @@ h1{
 }
 
 @media (max-width: 425px) {
-  .col-3 {
+  .col-4 {
     width: 100%;
   }
   .col-6 {
