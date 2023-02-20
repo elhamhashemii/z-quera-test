@@ -18,7 +18,6 @@ const router = useRouter()
 
 const routeToSingle = (id) => {
   router.push({name: "single product", params: {id}})
-  console.log(id)
 }
 
 </script>
