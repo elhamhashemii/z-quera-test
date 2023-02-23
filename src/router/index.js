@@ -19,7 +19,10 @@ const router = createRouter({
       name: 'about',
       component: () => import('../views/AboutPage.vue')
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 }
+  },
 })
 
 export default router
